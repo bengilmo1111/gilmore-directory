@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/game-manifest.schema.json",
+  "id": "GAME_SLUG",
+  "title": "GAME_TITLE",
+  "description": "GAME_DESCRIPTION",
+  "slug": "GAME_SLUG",
+  "origin": "https://GAME_PROJECT.vercel.app",
+  "canonicalUrl": "https://gilmore.games/GAME_SLUG/",
+  "repository": "https://github.com/OWNER/REPOSITORY",
+  "framework": "vite",
+  "genre": "GAME_GENRE",
+  "players": "1",
+  "status": "planned"
+}
