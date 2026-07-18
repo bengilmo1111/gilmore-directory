@@ -129,6 +129,7 @@
   }
   .player:nth-child(2) { animation-delay: 0.15s; }
   .player:nth-child(3) { animation-delay: 0.3s; }
+  .player:nth-child(4) { animation-delay: 0.45s; }
   @keyframes popIn {
     from { opacity: 0; transform: scale(0.5) translateY(20px); }
     to { opacity: 1; transform: scale(1) translateY(0); }
@@ -149,6 +150,7 @@
   .avatar.henry { background: linear-gradient(135deg, var(--blue), var(--purple)); }
   .avatar.casper { background: linear-gradient(135deg, var(--green), var(--blue)); }
   .avatar.nina { background: linear-gradient(135deg, var(--pink), var(--orange)); }
+  .avatar.alice { background: linear-gradient(135deg, var(--yellow), var(--pink)); }
   .player-name {
     font-family: 'Fredoka One', cursive;
     font-size: 1.1rem;
@@ -205,6 +207,7 @@
   .game-card:nth-child(5) { animation-delay: 0.65s; }
   .game-card:nth-child(6) { animation-delay: 0.75s; }
   .game-card:nth-child(7) { animation-delay: 0.85s; }
+  .game-card:nth-child(8) { animation-delay: 0.95s; }
   @keyframes cardIn {
     from { opacity: 0; transform: translateY(30px) scale(0.95); }
     to { opacity: 1; transform: translateY(0) scale(1); }
@@ -354,6 +357,11 @@
       <span class="player-name">Nina</span>
       <span class="player-label">Player 3</span>
     </div>
+    <div class="player">
+      <div class="avatar alice">👶</div>
+      <span class="player-name">Alice</span>
+      <span class="player-label">Baby Player</span>
+    </div>
   </div>
 
   <!-- Games -->
@@ -411,6 +419,15 @@
         <span class="game-title">Pokémon Adventure</span>
         <span class="game-desc">Explore, battle, and catch your way through a brand new Pokémon game!</span>
         <span class="game-tag">Pokémon</span>
+      </div>
+    </a>
+
+    <a href="https://golfstars.vercel.app/" class="game-card" style="--accent: var(--green);">
+      <span class="game-icon">⛳⭐</span>
+      <div class="game-card-content">
+        <span class="game-title">Golf Stars</span>
+        <span class="game-desc">Tee off, aim carefully, and become a golfing superstar!</span>
+        <span class="game-tag">Sports</span>
       </div>
     </a>
 
