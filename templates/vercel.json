@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/GAME_SLUG",
+      "destination": "https://GAME_PROJECT.vercel.app/"
+    },
+    {
+      "source": "/GAME_SLUG/:path*",
+      "destination": "https://GAME_PROJECT.vercel.app/:path*"
+    }
+  ]
+}
