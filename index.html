@@ -129,6 +129,7 @@
   }
   .player:nth-child(2) { animation-delay: 0.15s; }
   .player:nth-child(3) { animation-delay: 0.3s; }
+  .player:nth-child(4) { animation-delay: 0.45s; }
   @keyframes popIn {
     from { opacity: 0; transform: scale(0.5) translateY(20px); }
     to { opacity: 1; transform: scale(1) translateY(0); }
@@ -149,6 +150,7 @@
   .avatar.henry { background: linear-gradient(135deg, var(--blue), var(--purple)); }
   .avatar.casper { background: linear-gradient(135deg, var(--green), var(--blue)); }
   .avatar.nina { background: linear-gradient(135deg, var(--pink), var(--orange)); }
+  .avatar.alice { background: linear-gradient(135deg, var(--yellow), var(--pink)); }
   .player-name {
     font-family: 'Fredoka One', cursive;
     font-size: 1.1rem;
@@ -354,6 +356,11 @@
       <div class="avatar nina">🧚</div>
       <span class="player-name">Nina</span>
       <span class="player-label">Player 3</span>
+    </div>
+    <div class="player">
+      <div class="avatar alice">👶</div>
+      <span class="player-name">Alice</span>
+      <span class="player-label">Baby Player</span>
     </div>
   </div>
 
