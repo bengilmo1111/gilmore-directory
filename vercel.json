@@ -4,6 +4,7 @@
     { "source": "/beryl-racing", "destination": "/beryl-racing/", "permanent": false }
   ],
   "rewrites": [
+    { "source": "/beryl-racing/", "destination": "https://beryl-racing.vercel.app/" },
     { "source": "/beryl-racing/:path*", "destination": "https://beryl-racing.vercel.app/:path*" }
   ]
 }
