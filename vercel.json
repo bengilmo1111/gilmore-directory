@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/beryl-racing", "destination": "/beryl-racing/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/beryl-racing/:path*", "destination": "https://beryl-racing.vercel.app/:path*" }
+  ]
+}
