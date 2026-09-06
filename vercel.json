@@ -12,6 +12,11 @@
       "permanent": true
     },
     {
+      "source": "/beryl-racing-3d/",
+      "destination": "/beryl-racing/",
+      "permanent": true
+    },
+    {
       "source": "/beryl-racing-3d/:path*",
       "destination": "/beryl-racing/:path*",
       "permanent": true
