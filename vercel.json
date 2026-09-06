@@ -1,10 +1,30 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
-    { "source": "/beryl-racing", "destination": "/beryl-racing/", "permanent": false }
+    {
+      "source": "/beryl-racing",
+      "destination": "/beryl-racing/",
+      "permanent": false
+    },
+    {
+      "source": "/beryl-racing-3d",
+      "destination": "/beryl-racing/",
+      "permanent": true
+    },
+    {
+      "source": "/beryl-racing-3d/:path*",
+      "destination": "/beryl-racing/:path*",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/beryl-racing/", "destination": "https://beryl-racing.vercel.app/" },
-    { "source": "/beryl-racing/:path*", "destination": "https://beryl-racing.vercel.app/:path*" }
+    {
+      "source": "/beryl-racing/",
+      "destination": "https://beryl-racing.vercel.app/"
+    },
+    {
+      "source": "/beryl-racing/:path*",
+      "destination": "https://beryl-racing.vercel.app/:path*"
+    }
   ]
 }

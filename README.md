@@ -41,4 +41,4 @@ vercel.json                 Gateway rewrite rules once games are migrated
 
 ## Current status
 
-`gilmore.games` is connected to this Vercel project. The next step is to select a low-risk game, configure it for a base path, and add the first production rewrite.
+`gilmore.games` is connected to this Vercel project. Beryl Racing at `/beryl-racing/` serves the 3D game from the `beryl-racing` Vercel project and the game repository’s `main` branch. The former 2D release is retired. `/beryl-racing-3d/` redirects to the same public game URL. Keep the existing gateway origin: it now deploys 3D from `main`.
