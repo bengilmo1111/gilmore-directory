@@ -20,6 +20,11 @@
       "source": "/beryl-racing-3d/:path*",
       "destination": "/beryl-racing/:path*",
       "permanent": true
+    },
+    {
+      "source": "/old-alicetown",
+      "destination": "/old-alicetown/",
+      "permanent": false
     }
   ],
   "rewrites": [
@@ -30,6 +35,14 @@
     {
       "source": "/beryl-racing/:path*",
       "destination": "https://beryl-racing.vercel.app/:path*"
+    },
+    {
+      "source": "/old-alicetown/",
+      "destination": "https://old-alicetown.vercel.app/"
+    },
+    {
+      "source": "/old-alicetown/:path*",
+      "destination": "https://old-alicetown.vercel.app/:path*"
     }
   ]
 }
