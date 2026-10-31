@@ -42,3 +42,5 @@ vercel.json                 Gateway rewrite rules once games are migrated
 ## Current status
 
 `gilmore.games` is connected to this Vercel project. Beryl Racing at `/beryl-racing/` serves the 3D game from the `beryl-racing` Vercel project and the game repository’s `main` branch. The former 2D release is retired. `/beryl-racing-3d/` redirects to the same public game URL. Keep the existing gateway origin: it now deploys 3D from `main`.
+
+Old Alicetown: Candy Before Dawn is available at `/old-alicetown/`, served by the separate `old-alicetown` Vercel project and `bengilmo1111/old-alicetown` game repository.
